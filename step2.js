@@ -63,7 +63,7 @@ console.log(isPangram("I like cats, but not mice"));
 //4) Longest Word
 
 function findLongestWord(words){
-    var longestWord = words.sort(function(a, b) { 
+ let longestWord = words.sort(function(a, b) { 
         return b.length - a.length;
       });
       return longestWord[0].length;
